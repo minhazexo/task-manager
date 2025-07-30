@@ -13,7 +13,7 @@ services:
         value: 'false'
       - key: DB_CONNECTION
         fromDatabase:
-          name: your-database-name
+          name: task-manager-db
           property: connectionString
       # Add other environment variables here as needed
     buildCommand: ""
